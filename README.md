@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+client = OneMl::Client.new
+response = client.get_node("pubkey")
+
+response.success?
+
+node = response.node
+node.noderank.capacity # an integer
+```
+
+See `spec/acceptance` for more details.
 
 ## Development
 
@@ -32,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/one_ml.
+Bug reports and pull requests are welcome on GitHub at https://github.com/eltib71/one_ml.
 
 
 ## License

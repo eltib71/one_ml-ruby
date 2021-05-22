@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://1ml.com/node/030c3f19d742ca294a55c00376b3b355c3c90d61c6b6b39554dbc7ac19b141c14f/json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Server:
+      - Microsoft-IIS/10.0
+      X-Aspnetmvc-Version:
+      - '5.2'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Sat, 22 May 2021 03:15:46 GMT
+      Content-Length:
+      - '444'
+    body:
+      encoding: ASCII-8BIT
+      string: "{\r\n  \"last_update\": 1621640065,\r\n  \"pub_key\": \"030c3f19d742ca294a55c00376b3b355c3c90d61c6b6b39554dbc7ac19b141c14f\",\r\n
+        \ \"alias\": \"Bitrefill\",\r\n  \"addresses\": [\r\n    {\r\n      \"network\":
+        \"tcp\",\r\n      \"addr\": \"52.50.244.44:9735\"\r\n    }\r\n  ],\r\n  \"color\":
+        \"#3399ff\",\r\n  \"capacity\": 6320538907,\r\n  \"channelcount\": 452,\r\n
+        \ \"noderank\": {\r\n    \"capacity\": 4,\r\n    \"channelcount\": 18,\r\n
+        \   \"age\": 1640,\r\n    \"growth\": 423,\r\n    \"availability\": 11\r\n
+        \ }\r\n}"
+  recorded_at: Sat, 22 May 2021 03:15:45 GMT
+recorded_with: VCR 6.0.0

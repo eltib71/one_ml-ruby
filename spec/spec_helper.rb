@@ -1,5 +1,12 @@
 require "bundler/setup"
 require "one_ml"
+require "pathname"
+require "pry-byebug"
+
+SPEC_DIR = Pathname.new(File.dirname(__FILE__))
+SUPPORT_DIR = SPEC_DIR.join("support")
+
+Dir[SUPPORT_DIR.join("*.rb")].each {|f| require f }
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
