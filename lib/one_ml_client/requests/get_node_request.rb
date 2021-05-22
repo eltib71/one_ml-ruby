@@ -1,4 +1,4 @@
-module OneMl
+module OneMlClient
   class GetNodeRequest
 
     URI = "https://1ml.com/node/:pub_key/json".freeze

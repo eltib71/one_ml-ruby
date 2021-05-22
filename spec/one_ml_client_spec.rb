@@ -1,6 +1,6 @@
-RSpec.describe OneMl do
+RSpec.describe OneMlClient do
   it "has a version number" do
-    expect(OneMl::VERSION).not_to be nil
+    expect(OneMlClient::VERSION).not_to be nil
   end
 
   it "does something useful" do

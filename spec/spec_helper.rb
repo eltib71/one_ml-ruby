@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "one_ml"
+require "one_ml_client"
 require "pathname"
 require "pry-byebug"
 

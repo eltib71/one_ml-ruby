@@ -1,3 +1,3 @@
-module OneMl
+module OneMlClient
   VERSION = "0.1.0"
 end

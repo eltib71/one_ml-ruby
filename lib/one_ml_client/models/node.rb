@@ -1,4 +1,4 @@
-module OneMl
+module OneMlClient
   class Node
 
     extend Dry::Initializer

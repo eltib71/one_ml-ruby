@@ -1,4 +1,4 @@
-module OneMl
+module OneMlClient
   class Client
 
     def get_node(pub_key)

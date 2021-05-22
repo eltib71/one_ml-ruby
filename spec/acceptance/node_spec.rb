@@ -6,7 +6,7 @@ RSpec.describe "Get node" do
     pub_key =
       "030c3f19d742ca294a55c00376b3b355c3c90d61c6b6b39554dbc7ac19b141c14f"
 
-    client = OneMl::Client.new
+    client = OneMlClient::Client.new
     result = client.get_node(pub_key)
 
     expect(result).to be_success

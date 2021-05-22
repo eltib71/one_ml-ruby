@@ -1,4 +1,4 @@
-module OneMl
+module OneMlClient
   class GetNodeResponse
 
     attr_reader :raw_response
