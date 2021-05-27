@@ -2,7 +2,7 @@ module OneMlClient
   class GetNodeResponse
 
     attr_reader :raw_response
-    delegate :success?, to: :raw_response
+    delegate :success?, :code, to: :raw_response
 
     def initialize(raw_response:)
       @raw_response = raw_response
